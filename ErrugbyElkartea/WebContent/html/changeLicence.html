@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lizentzia aldatzeko orria</title>
+<link href="/ErrugbyElkartea/css/styleSheet.css" rel="stylesheet" />
+</head>
+<body>
+	<header>
+		<h1>Errugby lizentzia lortzeko web aplikazioa</h1>
+		<h3>Lizentzia aldatu</h3>
+		<img src="http://vinilos.habitaka.com/125-260-thickbox/Array.jpg" alt="rugby ball" style="width:180px;height:128px;">
+	</header>
+	<section>
+		<div style="text-align: right;">
+			<a
+				href="/ErrugbyElkartea/servlet/LizentziaLortuServlet?action=logout"
+				style="text-decoration: none"> <font color="white">Logout</font>
+			</a>
+		</div>
+	</section>
+	<section>
+		<form method="POST"
+			action="/ErrugbyElkartea/servlet/LizentziaLortuServlet">
+			<table>
+				<tr>
+					<td>Lizentzia motak:</td>
+					<td><input type="radio" name="Lizentzia"
+						value="Lizentziarik ez" checked> Lizentziarik ez</td>
+					<td><input type="radio" name="Lizentzia" value="Ikusle">
+						Ikusle</td>
+					<td><input type="radio" name="Lizentzia"
+						value="Hirugarren denbora"> Hirugarren denbora</td>
+					<td><input type="radio" name="Lizentzia" value="Profesional">
+						Profesional</td>
+				</tr>
+			</table>
+			<br>
+			<div style="text-align: center;">
+				<button>Aldaketak Gorde</button>
+			</div>
+		</form>
+	</section>
+	<section>
+		<a href="/ErrugbyElkartea/html/mainPage.html"
+			style="text-decoration: none"> <font color="white">Atzera</font>
+		</a>
+	</section>
+	<footer>Web Sistemak - EUITI Bilbao
+	<img src="http://freepngimages.com/wp-content/uploads/2015/10/vintage-rugby-ball.png" alt="rugby ball" style="width:180px;height:80px;">
+	</footer>
+</body>
+</html>

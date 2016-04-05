@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ziurtagiria lortzeko orria</title>
+<link href="/ErrugbyElkartea/css/styleSheet.css" rel="stylesheet" />
+</head>
+<body>
+	<header>
+		<h1>Errugby lizentzia lortzeko web aplikazioa</h1>
+		<h3>Lizentziaren ziurtagiria lortu</h3>
+		<img src="http://vinilos.habitaka.com/125-260-thickbox/Array.jpg" alt="rugby ball" style="width:180px;height:128px;">
+	</header>
+	<section>
+	<div style="text-align:right;">
+		<a href="/ErrugbyElkartea/servlet/PDFBihurtuServlet?action=logout"
+			style="text-decoration: none"> <font color="white">Logout</font>
+		</a>
+	</div>
+	</section>
+	<section>
+	<div style="text-align:center;">
+		<h2>Lizentziaren ziurtagiria lortzeko sakatu botoian</h2>
+		<form method="POST"	action="/ErrugbyElkartea/servlet/PDFBihurtuServlet">
+			<input type="submit" name="action" value="ziurtagiria_lortu">
+		</form>
+	</div>
+	</section>
+	<section>
+		<a href="/ErrugbyElkartea/html/mainPage.html"
+			style="text-decoration: none"> <font color="white">Atzera</font>
+		</a>
+	</section>
+	<footer>Web Sistemak - EUITI Bilbao
+	<img src="http://freepngimages.com/wp-content/uploads/2015/10/vintage-rugby-ball.png" alt="rugby ball" style="width:180px;height:80px;">
+	</footer>
+</body>
+</html>
